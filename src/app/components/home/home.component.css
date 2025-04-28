@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.hero {
+  background: url('https://source.unsplash.com/1600x900/?landscape,nature') no-repeat center center/cover;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(12, 147, 37);
+  text-align: center;
+  padding: 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+.hero p {
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+.feature {
+  padding: 50px 20px;
+  text-align: center;
+}
+.feature i {
+  font-size: 3rem;
+  color: #007bff;
+}
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
